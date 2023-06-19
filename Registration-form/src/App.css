@@ -1,0 +1,59 @@
+body {
+  background-color: bisque;
+}
+.container{
+  background-color: #f2f2f2;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+input,select{
+  width: 38%;
+  margin: 8px 0;
+  padding: 12px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 14px;
+}
+button:hover {
+  background-color: yellowgreen;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+pre{
+  text-align: center;
+}
