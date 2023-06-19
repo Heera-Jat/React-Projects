@@ -1,56 +1,63 @@
-body {
-  background-color: bisque;
-}
 .container{
-  background-color: #f2f2f2;
-  justify-content: center;
-  width: 50%;
+  background-color: rgb(7,2,71);
   margin: auto;
-  text-align: center;
 }
 
-input,select{
-  width: 38%;
-  margin: 8px 0;
+input{
+  width: 55%;
+  margin: 2px 0;
+  padding: 11px 18px;
+}
+
+.header{
+  font-size: large;
+  text-align: center;
+  width:auto;
   padding: 12px 20px;
-  border-radius: 4px;
-  display: inline-block;
-  border: 1px solid #ccc;
+  color: yellowgreen;
+  font-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
+  background-color: red; /* Green */
+  color: yellow;
+  padding: 15px 18px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  font-size: 10px;
   cursor: pointer;
-  border-radius: 14px;
+  border-radius: 3px;
 }
 button:hover {
   background-color: yellowgreen;
 }
 
+.allList{
+  background-color: rgb(50, 79, 158);
+  text-align: center;
+  margin-bottom: 1%;
+}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.listData{
+  width: 70%;
+  font-size: 25px;
+  background-color: rgb(164, 203, 237);
+  border-radius: 6px;
+}
+
+.removeAll{
+  background-color: rgb(18, 15, 15);
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.nm{
+ margin-left: 10%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
+ .Heera{
+  color: goldenrod;
+  text-align: center;
+  
+ }
