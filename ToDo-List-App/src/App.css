@@ -1,63 +1,56 @@
+body {
+  background-color: bisque;
+}
 .container{
-  background-color: rgb(7,2,71);
+  background-color: #f2f2f2;
+  justify-content: center;
+  width: 50%;
   margin: auto;
-}
-
-input{
-  width: 35%;
-  margin: 2px 0;
-  padding: 11px 18px;
-}
-
-.header{
-  font-size: large;
   text-align: center;
-  width:auto;
+}
+
+input,select{
+  width: 38%;
+  margin: 8px 0;
   padding: 12px 20px;
-  color: yellowgreen;
-  font-size: auto;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 4px;
+  display: inline-block;
+  border: 1px solid #ccc;
 }
 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
 button {
-  background-color: red; /* Green */
-  color: yellow;
-  padding: 15px 18px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
-  font-size: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 14px;
 }
 button:hover {
   background-color: yellowgreen;
 }
 
-.allList{
-  background-color: rgb(50, 79, 158);
-  text-align: center;
-  margin-bottom: 1%;
-}
 
-.listData{
-  width: 40%;
-  font-size: 25px;
-  background-color: rgb(164, 203, 237);
-  border-radius: 6px;
-}
-
-.removeAll{
-  background-color: rgb(18, 15, 15);
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-.nm{
- margin-left: 30%;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
- .Heera{
-  color: goldenrod;
-  text-align: center;
 
- }
+.App-link {
+  color: #61dafb;
+}
+
