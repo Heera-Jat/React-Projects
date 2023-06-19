@@ -1,0 +1,63 @@
+.container{
+  background-color: rgb(7,2,71);
+  margin: auto;
+}
+
+input{
+  width: 35%;
+  margin: 2px 0;
+  padding: 11px 18px;
+}
+
+.header{
+  font-size: large;
+  text-align: center;
+  width:auto;
+  padding: 12px 20px;
+  color: yellowgreen;
+  font-size: auto;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button {
+  background-color: red; /* Green */
+  color: yellow;
+  padding: 15px 18px;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+button:hover {
+  background-color: yellowgreen;
+}
+
+.allList{
+  background-color: rgb(50, 79, 158);
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.listData{
+  width: 40%;
+  font-size: 25px;
+  background-color: rgb(164, 203, 237);
+  border-radius: 6px;
+}
+
+.removeAll{
+  background-color: rgb(18, 15, 15);
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.nm{
+ margin-left: 30%;
+  display: flex;
+}
+ .Heera{
+  color: goldenrod;
+  text-align: center;
+  font-size: 0.1px;
+ }
