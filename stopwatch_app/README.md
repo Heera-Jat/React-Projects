@@ -4,13 +4,7 @@ https://block-stopwatch-app.netlify.app/
 
 ## React Project create
 
-`npx create-react-app planner-app`
-
-`cd planner-app`
-
-`npm install react-calendar react-draggable`
-
-`npm run start`
+`npx create-react-app stopwatch-app`
 
 
 ##Project Deployment to Netlify
@@ -27,7 +21,7 @@ What would you like to do?: Create & configure a new site
 
 Team: choose the default option
 
-Site name: <yourusername>-planner-app 
+Site name: <yourusername>-stopwatch-app 
 
 On asked to provide a publish directory, enter build. 
 
